@@ -13,14 +13,19 @@ variable "api_gateway_id" {
   default     = "blwu7x4m3b"
 }
 
+variable "api_gateway_path" {
+  type        = string
+  default     = "fiap-hmv"
+}
+
 variable "region" {
   type        = string
   default     = "us-east-1"
 }
 
-variable "api_gateway_path" {
+variable "api_gateway_stage" {
   type        = string
-  default     = "fiap-hmv"
+  default     = "prd"
 }
 
 # Tags Config
